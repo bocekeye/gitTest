@@ -29,6 +29,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 
 		DrawString(50, 50, "gitのテストやってます", GetColor(55, 123, 255));
+		DrawString(Game::kScreenWidth / 2, Game::kScreenHeight / 2, ">3", GetColor(55, 123, 255));
 
 		//裏画面を表画面を入れ替える
 		ScreenFlip();
